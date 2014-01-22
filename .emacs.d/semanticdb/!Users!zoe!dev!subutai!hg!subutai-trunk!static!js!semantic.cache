@@ -1,0 +1,45 @@
+;; Object js/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "js/"
+  :tables (list 
+   (semanticdb-table "filedrag.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "filedrag.js"
+    :pointmax 4739
+    :fsize 4738
+    :lastmodtime '(20349 1993)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "jquery.iframe-transport.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "jquery.iframe-transport.js"
+    :pointmax 8090
+    :fsize 8089
+    :lastmodtime '(20347 25917)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "pulp_monocle.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "pulp_monocle.js"
+    :pointmax 24981
+    :fsize 24980
+    :lastmodtime '(20332 15422)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "pulp_unpublished_revision_monocle.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "pulp_unpublished_revision_monocle.js"
+    :pointmax 7149
+    :fsize 7148
+    :lastmodtime '(20332 14985)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!static!js!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

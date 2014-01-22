@@ -1,0 +1,18 @@
+;; Object PulpCentral/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "PulpCentral/"
+  :tables (list 
+   (semanticdb-table "configIOS.json"
+    :major-mode 'js-mode
+    :tags nil
+    :file "configIOS.json"
+    :pointmax 3692
+    :fsize 3691
+    :lastmodtime '(20330 7135)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

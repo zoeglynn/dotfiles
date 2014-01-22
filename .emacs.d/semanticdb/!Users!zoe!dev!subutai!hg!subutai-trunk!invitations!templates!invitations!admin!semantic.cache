@@ -1,0 +1,36 @@
+;; Object admin/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "admin/"
+  :tables (list 
+   (semanticdb-table "massInvitation.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "massInvitation.html"
+    :pointmax 662
+    :fsize 661
+    :lastmodtime '(20340 45688)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "bulk_unaddressed_invitation_partial.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "bulk_unaddressed_invitation_partial.html"
+    :pointmax 278
+    :fsize 277
+    :lastmodtime '(20340 50265)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "invitations.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "invitations.html"
+    :pointmax 1948
+    :fsize 1947
+    :lastmodtime '(20238 9790)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!invitations!templates!invitations!admin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

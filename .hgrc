@@ -1,0 +1,21 @@
+[ui]
+username = zoe <zoe.glynn@gmail.com>
+merge = diffmerge
+
+[extensions]
+hgext.graphlog =
+fetch=
+hgext.extdiff =
+
+[extdiff]
+cmd.diffmerge = /usr/bin/diffmerge
+
+[merge-tools]
+diffmerge.executable = /usr/bin/diffmerge
+diffmerge.args = -merge -result=$output -t1="Local Version" -t2=$output -t3="Other Version" -caption=$output $local $base $other
+diffmerge.binary = False
+diffmerge.symlinks = False
+diffmerge.gui = True
+
+[hooks]
+changegroup=hg diff --stat -r $HG_NODE -r tip

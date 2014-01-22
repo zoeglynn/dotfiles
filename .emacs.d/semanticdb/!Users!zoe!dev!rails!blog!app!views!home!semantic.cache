@@ -1,0 +1,18 @@
+;; Object home/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "home/"
+  :tables (list 
+   (semanticdb-table "index.html.erb"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.html.erb"
+    :pointmax 69
+    :fsize 68
+    :lastmodtime '(20313 30995)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!rails!blog!app!views!home!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

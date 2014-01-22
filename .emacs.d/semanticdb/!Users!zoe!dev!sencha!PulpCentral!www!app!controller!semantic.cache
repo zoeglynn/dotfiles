@@ -1,0 +1,63 @@
+;; Object controller/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "controller/"
+  :tables (list 
+   (semanticdb-table "Auth.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Auth.js"
+    :pointmax 10196
+    :fsize 10198
+    :lastmodtime '(20363 48141)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "UserProfile.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "UserProfile.js"
+    :pointmax 438
+    :fsize 437
+    :lastmodtime '(20267 5438)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Reader.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Reader.js"
+    :pointmax 5400
+    :fsize 5399
+    :lastmodtime '(20332 16917)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Main.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Main.js"
+    :pointmax 1820
+    :fsize 1819
+    :lastmodtime '(20322 9096)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Feed.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Feed.js"
+    :pointmax 3255
+    :fsize 3254
+    :lastmodtime '(20323 55070)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "PublicationList.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "PublicationList.js"
+    :pointmax 9310
+    :fsize 9309
+    :lastmodtime '(20323 54745)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral!www!app!controller!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,36 @@
+;; Object profiles/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "profiles/"
+  :tables (list 
+   (semanticdb-table "admin.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "admin.py"
+    :pointmax 7371
+    :fsize 7370
+    :lastmodtime '(19846 35904)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "profiles.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "profiles.py"
+    :pointmax 26280
+    :fsize 26279
+    :lastmodtime '(19846 57537)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "uri.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "uri.py"
+    :pointmax 648
+    :fsize 647
+    :lastmodtime '(19794 16217)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!arclight!svn!development!production!profiles!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,18 @@
+;; Object .subutai/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".subutai/"
+  :tables (list 
+   (semanticdb-table "settings.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "settings.py"
+    :pointmax 2299
+    :fsize 2298
+    :lastmodtime '(20357 52561)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!.subutai!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

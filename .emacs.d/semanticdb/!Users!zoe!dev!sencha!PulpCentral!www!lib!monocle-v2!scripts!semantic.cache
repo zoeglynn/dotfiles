@@ -1,0 +1,36 @@
+;; Object scripts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "scripts/"
+  :tables (list 
+   (semanticdb-table "monocore.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "monocore.js"
+    :pointmax 143774
+    :fsize 143773
+    :lastmodtime '(20331 49322)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "monocore.js.wip"
+    :major-mode 'js-mode
+    :tags nil
+    :file "monocore.js.wip"
+    :pointmax 142417
+    :fsize 142416
+    :lastmodtime '(20331 49211)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "monoctrl.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "monoctrl.js"
+    :pointmax 25674
+    :fsize 25272
+    :lastmodtime '(20331 49322)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral!www!lib!monocle-v2!scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

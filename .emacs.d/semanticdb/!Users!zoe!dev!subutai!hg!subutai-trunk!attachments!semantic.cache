@@ -1,0 +1,36 @@
+;; Object attachments/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "attachments/"
+  :tables (list 
+   (semanticdb-table "api.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "api.py"
+    :pointmax 8554
+    :fsize 8646
+    :lastmodtime '(20356 26860)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "models.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "models.py"
+    :pointmax 5081
+    :fsize 5080
+    :lastmodtime '(20349 26200)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py"
+    :pointmax 1714
+    :fsize 1713
+    :lastmodtime '(20340 41541)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!attachments!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

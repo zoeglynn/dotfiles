@@ -1,0 +1,108 @@
+;; Object view/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "view/"
+  :tables (list 
+   (semanticdb-table "UserProfile.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "UserProfile.js"
+    :pointmax 2983
+    :fsize 2982
+    :lastmodtime '(20277 46317)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "FeedItem.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "FeedItem.js"
+    :pointmax 1362
+    :fsize 1361
+    :lastmodtime '(20324 5)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "FeedList.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "FeedList.js"
+    :pointmax 2277
+    :fsize 2276
+    :lastmodtime '(20323 65289)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "PublicationDetail.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "PublicationDetail.js"
+    :pointmax 2083
+    :fsize 2082
+    :lastmodtime '(20323 54460)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "MonocleReader.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "MonocleReader.js"
+    :pointmax 3297
+    :fsize 3296
+    :lastmodtime '(20332 16434)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ReaderWrap.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "ReaderWrap.js"
+    :pointmax 737
+    :fsize 736
+    :lastmodtime '(20330 23949)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ReaderOverlay.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "ReaderOverlay.js"
+    :pointmax 566
+    :fsize 565
+    :lastmodtime '(20331 44405)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Main.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Main.js"
+    :pointmax 1892
+    :fsize 1891
+    :lastmodtime '(20323 54742)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Feed.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Feed.js"
+    :pointmax 254
+    :fsize 253
+    :lastmodtime '(20323 47960)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ReaderNav.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "ReaderNav.js"
+    :pointmax 456
+    :fsize 455
+    :lastmodtime '(20322 8412)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ReaderControl.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "ReaderControl.js"
+    :pointmax 1356
+    :fsize 1355
+    :lastmodtime '(20319 59498)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral!www!app!view!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

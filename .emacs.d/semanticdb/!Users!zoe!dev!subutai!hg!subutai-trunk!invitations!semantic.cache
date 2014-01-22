@@ -1,0 +1,45 @@
+;; Object invitations/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "invitations/"
+  :tables (list 
+   (semanticdb-table "middleware.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "middleware.py"
+    :pointmax 4267
+    :fsize 4314
+    :lastmodtime '(20363 49002)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "views.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "views.py"
+    :pointmax 17623
+    :fsize 17622
+    :lastmodtime '(20340 52593)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py"
+    :pointmax 2058
+    :fsize 2057
+    :lastmodtime '(20340 48166)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "models.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "models.py"
+    :pointmax 6353
+    :fsize 6352
+    :lastmodtime '(20340 51486)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!invitations!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

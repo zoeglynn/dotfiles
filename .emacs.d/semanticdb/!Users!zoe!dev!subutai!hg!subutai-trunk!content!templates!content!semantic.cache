@@ -1,0 +1,27 @@
+;; Object content/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "content/"
+  :tables (list 
+   (semanticdb-table "monocleReader.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "monocleReader.html"
+    :pointmax 2362
+    :fsize 2361
+    :lastmodtime '(20332 14176)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "monocleReaderUnpublishedRevision.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "monocleReaderUnpublishedRevision.html"
+    :pointmax 2635
+    :fsize 2634
+    :lastmodtime '(20332 12157)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!content!templates!content!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

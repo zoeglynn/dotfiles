@@ -1,0 +1,27 @@
+;; Object filedrag3/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "filedrag3/"
+  :tables (list 
+   (semanticdb-table "filedrag.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "filedrag.js"
+    :pointmax 3460
+    :fsize 3459
+    :lastmodtime '(20053 26612)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.html"
+    :pointmax 2107
+    :fsize 2106
+    :lastmodtime '(20019 12566)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!Downloads!filedrag3!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

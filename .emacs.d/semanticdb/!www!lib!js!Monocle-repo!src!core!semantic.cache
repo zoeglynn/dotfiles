@@ -1,0 +1,27 @@
+;; Object core/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "core/"
+  :tables (list 
+   (semanticdb-table "reader.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "reader.js"
+    :pointmax 22217
+    :fsize 22216
+    :lastmodtime '(20264 53474)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "events.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "events.js"
+    :pointmax 16916
+    :fsize 16915
+    :lastmodtime '(20264 53474)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!www!lib!js!Monocle-repo!src!core!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

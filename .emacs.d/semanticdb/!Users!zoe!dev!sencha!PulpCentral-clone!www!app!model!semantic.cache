@@ -1,0 +1,18 @@
+;; Object model/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "model/"
+  :tables (list 
+   (semanticdb-table "UserProfile.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "UserProfile.js"
+    :pointmax 970
+    :fsize 1015
+    :lastmodtime '(20321 3174)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral-clone!www!app!model!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

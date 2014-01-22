@@ -1,0 +1,27 @@
+;; Object commerce/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "commerce/"
+  :tables (list 
+   (semanticdb-table "views.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "views.py"
+    :pointmax 205800
+    :fsize 205938
+    :lastmodtime '(20363 53325)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "middleware.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "middleware.py"
+    :pointmax 5863
+    :fsize 6052
+    :lastmodtime '(20356 26860)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!commerce!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

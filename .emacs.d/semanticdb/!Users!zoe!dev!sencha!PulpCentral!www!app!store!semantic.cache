@@ -1,0 +1,45 @@
+;; Object store/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "store/"
+  :tables (list 
+   (semanticdb-table "UserProfiles.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "UserProfiles.js"
+    :pointmax 2433
+    :fsize 2432
+    :lastmodtime '(20267 1286)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Feed.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Feed.js"
+    :pointmax 12987
+    :fsize 12986
+    :lastmodtime '(20323 53134)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Publications.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Publications.js"
+    :pointmax 8229
+    :fsize 8228
+    :lastmodtime '(20267 1187)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "LocalPublications.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "LocalPublications.js"
+    :pointmax 235
+    :fsize 234
+    :lastmodtime '(20267 6476)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral!www!app!store!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

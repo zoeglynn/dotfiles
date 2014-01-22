@@ -1,0 +1,18 @@
+;; Object invitations/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "invitations/"
+  :tables (list 
+   (semanticdb-table "invitations.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "invitations.html"
+    :pointmax 3984
+    :fsize 3983
+    :lastmodtime '(20340 52187)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!invitations!templates!invitations!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

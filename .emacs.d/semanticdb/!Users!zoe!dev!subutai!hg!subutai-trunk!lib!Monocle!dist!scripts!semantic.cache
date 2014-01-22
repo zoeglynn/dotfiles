@@ -1,0 +1,18 @@
+;; Object scripts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "scripts/"
+  :tables (list 
+   (semanticdb-table "monocore.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "monocore.js"
+    :pointmax 143774
+    :fsize 143773
+    :lastmodtime '(20332 6997)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!lib!Monocle!dist!scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

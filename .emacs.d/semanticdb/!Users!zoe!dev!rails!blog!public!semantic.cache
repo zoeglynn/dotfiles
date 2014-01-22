@@ -1,0 +1,18 @@
+;; Object public/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "public/"
+  :tables (list 
+   (semanticdb-table "index.html.generated"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.html.generated"
+    :pointmax 5907
+    :fsize 5906
+    :lastmodtime '(20313 31211)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!rails!blog!public!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )
