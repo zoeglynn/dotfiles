@@ -1,0 +1,18 @@
+;; Object developers/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "developers/"
+  :tables (list 
+   (semanticdb-table "jeremy-settings.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "jeremy-settings.py"
+    :pointmax 2673
+    :fsize 2672
+    :lastmodtime '(20340 41569)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-zoe-wip!developers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

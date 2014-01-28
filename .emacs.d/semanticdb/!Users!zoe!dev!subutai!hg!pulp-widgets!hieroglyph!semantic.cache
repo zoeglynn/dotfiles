@@ -1,0 +1,63 @@
+;; Object hieroglyph/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "hieroglyph/"
+  :tables (list 
+   (semanticdb-table "wiki.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "wiki.html"
+    :pointmax 5949
+    :fsize 6093
+    :lastmodtime '(20366 22422)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.html"
+    :pointmax 8898
+    :fsize 7027
+    :lastmodtime '(20366 22422)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "about.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "about.html"
+    :pointmax 5884
+    :fsize 6836
+    :lastmodtime '(20366 3074)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "discussion.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "discussion.html"
+    :pointmax 13807
+    :fsize 14162
+    :lastmodtime '(20366 22422)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "community.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "community.html"
+    :pointmax 6544
+    :fsize 6758
+    :lastmodtime '(20366 22422)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "forum-newtopic.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "forum-newtopic.html"
+    :pointmax 6403
+    :fsize 7702
+    :lastmodtime '(20366 22422)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!pulp-widgets!hieroglyph!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

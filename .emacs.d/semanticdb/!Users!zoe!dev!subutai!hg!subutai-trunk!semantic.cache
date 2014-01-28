@@ -1,0 +1,220 @@
+;; Object subutai-trunk/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "subutai-trunk/"
+  :tables (list 
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("os" include nil nil [1 10])
+            ("django.conf.urls.defaults" include nil nil [11 50])
+            ("django.contrib" include nil nil [51 83])
+            ("django.conf" include nil nil [84 102])
+            ("subutai.settings" include nil nil [104 182])
+            ("handler404" variable nil nil [207 259])
+            ("handler500" variable nil nil [260 310])
+            ("urlpatterns" variable nil nil [313 1418])
+            ("if" code nil nil [1421 2791])
+            ("urlpatterns" variable nil nil [2792 3385]))          
+    :file "urls.py"
+    :pointmax 3386
+    :fsize 3385
+    :lastmodtime '(20340 37448)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "middleware.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("types" include nil nil [1 13])
+            ("json" include nil nil [14 25])
+            ("time" include nil nil [26 37])
+            ("logging" include nil nil [38 52])
+            ("traceback" include nil nil [53 69])
+            ("os" include nil nil [70 79])
+            ("sys" include nil nil [80 90])
+            ("datetime" include nil nil [91 106])
+            ("cProfile" include nil nil [107 122])
+            ("Cookie" include nil nil [123 136])
+            ("cStringIO" include nil nil [137 167])
+            ("riak" include nil nil [169 180])
+            ("django.utils.importlib" include nil nil [182 230])
+            ("django.utils.cache" include nil nil [231 280])
+            ("django.utils.http" include nil nil [281 322])
+            ("django.conf" include nil nil [323 355])
+            ("django.http" include nil nil [356 400])
+            ("django.core.exceptions" include nil nil [401 453])
+            ("django.template.base" include nil nil [454 502])
+            ("django.contrib.sessions.middleware" include nil nil [503 567])
+            ("subutai.settings" include nil nil [570 724])
+            ("subutai.app.models" include nil nil [725 810])
+            ("subutai.util" include nil nil [811 892])
+            ("subutai.decorators" include nil nil [893 931])
+            ("DEBUG_NOMEDIA" variable nil nil [934 955])
+            ("StartupInitializationMiddleware" type
+               (:superclasses ("object")
+                :members 
+                  ( ("__init__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [1023 1027]))                      ) (reparse-symbol indented_block_body) [1009 1473]))                  
+                :type "class")
+                nil [957 1473])
+            ("random" include nil nil [1481 1494])
+            ("TestDuplicateCookieMiddleware" type
+               (:superclasses ("object")
+                :members 
+                  ( ("process_request" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [1566 1570])
+                        ("request" variable nil (reparse-symbol function_parameters) [1572 1579]))                      ) (reparse-symbol indented_block_body) [1545 1624])
+                    ("process_response" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [1650 1654])
+                        ("request" variable nil (reparse-symbol function_parameters) [1656 1663])
+                        ("response" variable nil (reparse-symbol function_parameters) [1665 1673]))                      ) (reparse-symbol indented_block_body) [1629 2239]))                  
+                :type "class")
+                nil [1495 2239])
+            ("django.conf" include nil nil [2240 2272])
+            ("engine" variable nil nil [2273 2321])
+            ("SessionFromParameter" type
+               (:superclasses ("object")
+                :members 
+                  ( ("process_request" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [2385 2389])
+                        ("request" variable nil (reparse-symbol function_parameters) [2391 2398]))                      ) (reparse-symbol indented_block_body) [2364 3074]))                  
+                :type "class")
+                nil [2323 3074])
+            ("DebugPrintSessionKey" type
+               (:superclasses ("object")
+                :members 
+                  ( (""""Possibly useful during session middleware debugging"""" code nil (reparse-symbol indented_block_body) [3117 3174])
+                    ("process_request" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [3200 3204])
+                        ("request" variable nil (reparse-symbol function_parameters) [3206 3213]))                      ) (reparse-symbol indented_block_body) [3179 3296]))                  
+                :type "class")
+                nil [3076 3296])
+            ("SessionMiddlewareWithDomainSpecificCookie" type
+               (:superclasses ("SessionMiddleware")
+                :members 
+                  ( ("process_response" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [3399 3403])
+                        ("request" variable nil (reparse-symbol function_parameters) [3405 3412])
+                        ("response" variable nil (reparse-symbol function_parameters) [3414 3422]))                      ) (reparse-symbol indented_block_body) [3378 4908]))                  
+                :type "class")
+                nil [3306 4908])
+            ("SessionMiddleware_fancy" type
+               (:superclasses ("object")
+                :members 
+                  ( (""""Copy of django.contrib.sessions.middleware.SessionMiddleware which uses a different cookie-name method and deals beter with multiple cookies"""" code nil (reparse-symbol indented_block_body) [4955 5101])
+                    ("SERIOUS_DEBUG" variable nil (reparse-symbol indented_block_body) [5107 5128])
+                    ("process_request" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [5154 5158])
+                        ("request" variable nil (reparse-symbol function_parameters) [5160 5167]))                      ) (reparse-symbol indented_block_body) [5134 8512])
+                    ("process_response" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [8538 8542])
+                        ("request" variable nil (reparse-symbol function_parameters) [8544 8551])
+                        ("response" variable nil (reparse-symbol function_parameters) [8553 8561]))                      ) (reparse-symbol indented_block_body) [8517 11307]))                  
+                :type "class")
+                nil [4911 11307])
+            ("ShowSessionKeysMiddleware" type
+               (:superclasses ("object")
+                :members 
+                  ( ("process_view" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [11373 11377])
+                        ("request" variable nil (reparse-symbol function_parameters) [11379 11386])
+                        ("view_func" variable nil (reparse-symbol function_parameters) [11388 11397])
+                        ("view_args" variable nil (reparse-symbol function_parameters) [11399 11408])
+                        ("view_kwargs" variable nil (reparse-symbol function_parameters) [11410 11421]))                      ) (reparse-symbol indented_block_body) [11355 11608]))                  
+                :type "class")
+                nil [11309 11608])
+            ("ConvertJsonOrJsonPMiddleware" type
+               (:superclasses ("object")
+                :members 
+                  ( (""""Untested. Probably does not work."""" code nil (reparse-symbol indented_block_body) [11659 11698])
+                    ("process_response" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [11725 11729])
+                        ("request" variable nil (reparse-symbol function_parameters) [11731 11738])
+                        ("response" variable nil (reparse-symbol function_parameters) [11740 11748]))                      ) (reparse-symbol indented_block_body) [11703 12648]))                  
+                :type "class")
+                nil [11610 12648])
+            ("ProfilerMiddleware" type
+               (:superclasses ("object")
+                :members 
+                  ( ("process_view" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [12706 12710])
+                        ("request" variable nil (reparse-symbol function_parameters) [12712 12719])
+                        ("callback" variable nil (reparse-symbol function_parameters) [12721 12729])
+                        ("callback_args" variable nil (reparse-symbol function_parameters) [12731 12744])
+                        ("callback_kwargs" variable nil (reparse-symbol function_parameters) [12746 12761]))                      ) (reparse-symbol indented_block_body) [12689 13084])
+                    ("process_response" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [13110 13114])
+                        ("request" variable nil (reparse-symbol function_parameters) [13116 13123])
+                        ("response" variable nil (reparse-symbol function_parameters) [13125 13133]))                      ) (reparse-symbol indented_block_body) [13089 13579]))                  
+                :type "class")
+                nil [12651 13579])
+            ("USERS_TO_LOG" variable nil nil [13581 13621])
+            ("USERS_TO_LOG_DICT" variable nil nil [13622 13644])
+            ("for" code nil nil [13645 13710])
+            ("LogCertainSessionsForDebugging" type
+               (:superclasses ("object")
+                :members 
+                  ( ("process_response" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [13784 13788])
+                        ("request" variable nil (reparse-symbol function_parameters) [13790 13797])
+                        ("response" variable nil (reparse-symbol function_parameters) [13799 13807]))                      ) (reparse-symbol indented_block_body) [13763 14929]))                  
+                :type "class")
+                nil [13711 14929])
+            ("DefaultUniverseMiddleware" type
+               (:superclasses ("object")
+                :members 
+                  ( (""""Should only matter before the user is logged in.
+    TODO: test that"""" code nil (reparse-symbol indented_block_body) [14976 15050])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [15057 15068])
+                    ("AdjustSession" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [15092 15095])
+                        ("request" variable nil (reparse-symbol function_parameters) [15097 15104]))                      ) (reparse-symbol indented_block_body) [15073 15177])
+                    ("process_view" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [15200 15204])
+                        ("request" variable nil (reparse-symbol function_parameters) [15206 15213])
+                        ("callback" variable nil (reparse-symbol function_parameters) [15215 15223])
+                        ("callback_args" variable nil (reparse-symbol function_parameters) [15225 15238])
+                        ("callback_kwargs" variable nil (reparse-symbol function_parameters) [15240 15255]))                      ) (reparse-symbol indented_block_body) [15182 17026]))                  
+                :type "class")
+                nil [14930 17026])
+            ("ExceptionLoggingMiddleware" type
+               (:superclasses ("object")
+                :members 
+                  ( ("classmethod" code nil (reparse-symbol indented_block_body) [17077 17088])
+                    ("InitUnremarkableExceptionLogger" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [17130 17133]))                      ) (reparse-symbol indented_block_body) [17093 17520])
+                    ("process_exception" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [17548 17552])
+                        ("request" variable nil (reparse-symbol function_parameters) [17554 17561])
+                        ("exception" variable nil (reparse-symbol function_parameters) [17563 17572]))                      ) (reparse-symbol indented_block_body) [17525 19688]))                  
+                :type "class")
+                nil [17029 19688])
+            ("ExceptionLoggingMiddleware" code nil nil [19690 19751]))          
+    :file "middleware.py"
+    :pointmax 19754
+    :fsize 19753
+    :lastmodtime '(20368 19261)
+    :unmatched-syntax '((NAME 17881 . 17889) (IF 17914 . 17916) (ELSE 17950 . 17954) (punctuation 17076 . 17077) (punctuation 15056 . 15057) (NAME 6510 . 6517) (IF 6545 . 6547) (ELSE 6583 . 6587))
+    )
+   (semanticdb-table "decorators.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "decorators.py"
+    :pointmax 47597
+    :fsize 48394
+    :lastmodtime '(20367 482)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "settings.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "settings.py"
+    :pointmax 19876
+    :fsize 19875
+    :lastmodtime '(20356 26860)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

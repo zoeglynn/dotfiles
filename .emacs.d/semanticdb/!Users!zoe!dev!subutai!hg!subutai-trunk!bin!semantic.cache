@@ -1,0 +1,36 @@
+;; Object bin/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "bin/"
+  :tables (list 
+   (semanticdb-table "riakReconfigure"
+    :major-mode 'python-mode
+    :tags nil
+    :file "riakReconfigure"
+    :pointmax 2391
+    :fsize 2390
+    :lastmodtime '(20042 56505)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "riakCopy"
+    :major-mode 'python-mode
+    :tags nil
+    :file "riakCopy"
+    :pointmax 2405
+    :fsize 2404
+    :lastmodtime '(20229 24832)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "run-debug-server"
+    :major-mode 'python-mode
+    :tags nil
+    :file "run-debug-server"
+    :pointmax 401
+    :fsize 400
+    :lastmodtime '(20147 11163)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!bin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,50 @@
+;; Object js/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "js/"
+  :tables (list 
+   (semanticdb-table "hieroglyph.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "hieroglyph.js"
+    :pointmax 27095
+    :fsize 30494
+    :lastmodtime '(20366 2416)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "hieroglyph.js.mine_forgotPassword"
+    :major-mode 'js-mode
+    :tags nil
+    :file "hieroglyph.js.mine_forgotPassword"
+    :pointmax 27007
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "compat.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "compat.js"
+    :pointmax 156
+    :fsize 155
+    :lastmodtime '(20359 27066)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "hieroglyph.js.wipUserProfileEdit"
+    :major-mode 'js-mode
+    :tags nil
+    :file "hieroglyph.js.wipUserProfileEdit"
+    :pointmax 25258
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "hieroglyph.js.withAsyncSessionVerification"
+    :major-mode 'js-mode
+    :tags nil
+    :file "hieroglyph.js.withAsyncSessionVerification"
+    :pointmax 21695
+    :fsize 21694
+    :lastmodtime '(20349 12892)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!pulp-widgets!hieroglyph!js!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

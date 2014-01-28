@@ -1,0 +1,27 @@
+;; Object pullrefresh/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "pullrefresh/"
+  :tables (list 
+   (semanticdb-table "app.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "app.js"
+    :pointmax 3675
+    :fsize 3674
+    :lastmodtime '(20310 15420)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.html"
+    :pointmax 250
+    :fsize 249
+    :lastmodtime '(20310 15420)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!www!sencha-touch-2.0.0-commercial!examples!pullrefresh!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

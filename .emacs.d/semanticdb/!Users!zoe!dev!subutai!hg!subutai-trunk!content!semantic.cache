@@ -1,0 +1,36 @@
+;; Object content/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "content/"
+  :tables (list 
+   (semanticdb-table "views.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "views.py"
+    :pointmax 122965
+    :fsize 123476
+    :lastmodtime '(20363 53325)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "api.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "api.py"
+    :pointmax 29349
+    :fsize 31352
+    :lastmodtime '(20367 482)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "models.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "models.py"
+    :pointmax 138479
+    :fsize 145966
+    :lastmodtime '(20367 482)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!content!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

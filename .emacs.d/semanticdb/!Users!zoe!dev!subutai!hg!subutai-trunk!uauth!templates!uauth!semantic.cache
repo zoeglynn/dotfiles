@@ -1,0 +1,18 @@
+;; Object uauth/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "uauth/"
+  :tables (list 
+   (semanticdb-table "forgotPassword.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "forgotPassword.html"
+    :pointmax 645
+    :fsize 644
+    :lastmodtime '(20359 61912)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!uauth!templates!uauth!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

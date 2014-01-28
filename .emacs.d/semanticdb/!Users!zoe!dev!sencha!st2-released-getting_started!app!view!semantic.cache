@@ -1,0 +1,45 @@
+;; Object view/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "view/"
+  :tables (list 
+   (semanticdb-table "Main.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Main.js"
+    :pointmax 282
+    :fsize 281
+    :lastmodtime '(20310 35941)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Blog.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Blog.js"
+    :pointmax 692
+    :fsize 691
+    :lastmodtime '(20310 36709)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Contact.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Contact.js"
+    :pointmax 755
+    :fsize 754
+    :lastmodtime '(20310 35156)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Home.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Home.js"
+    :pointmax 540
+    :fsize 539
+    :lastmodtime '(20310 32729)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!st2-released-getting_started!app!view!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

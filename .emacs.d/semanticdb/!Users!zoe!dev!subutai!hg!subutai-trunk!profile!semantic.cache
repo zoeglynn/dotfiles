@@ -1,0 +1,43 @@
+;; Object profile/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "profile/"
+  :tables (list 
+   (semanticdb-table "api.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "api.py"
+    :pointmax 4268
+    :fsize 7638
+    :lastmodtime '(20363 49002)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py"
+    :pointmax 4013
+    :fsize 4188
+    :lastmodtime '(20361 2494)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "api.py.wip_updateUserProfile"
+    :major-mode 'python-mode
+    :tags nil
+    :file "api.py.wip_updateUserProfile"
+    :pointmax 2376
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "views.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "views.py"
+    :pointmax 23133
+    :fsize 23251
+    :lastmodtime '(20359 57240)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!profile!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

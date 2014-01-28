@@ -1,0 +1,81 @@
+;; Object pulp-widgets/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "pulp-widgets/"
+  :tables (list 
+   (semanticdb-table "auth.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "auth.js"
+    :pointmax 13512
+    :fsize 16123
+    :lastmodtime '(20365 47587)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "contents.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "contents.js"
+    :pointmax 17429
+    :fsize 17428
+    :lastmodtime '(20356 26865)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "profiles.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "profiles.js"
+    :pointmax 1475
+    :fsize 2390
+    :lastmodtime '(20361 8682)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "pulp.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "pulp.js"
+    :pointmax 8637
+    :fsize 8856
+    :lastmodtime '(20365 47587)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "forum.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "forum.js"
+    :pointmax 25497
+    :fsize 25446
+    :lastmodtime '(20359 43926)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "attachments.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "attachments.js"
+    :pointmax 8720
+    :fsize 7856
+    :lastmodtime '(20366 25045)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "dnd.html"
+    :major-mode 'js-mode
+    :tags nil
+    :file "dnd.html"
+    :pointmax 7678
+    :fsize 7677
+    :lastmodtime '(20357 23040)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "registration.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "registration.js"
+    :pointmax 6513
+    :fsize 6512
+    :lastmodtime '(20333 9634)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!pulp-widgets!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

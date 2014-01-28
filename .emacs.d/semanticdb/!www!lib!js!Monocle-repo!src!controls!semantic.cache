@@ -1,0 +1,18 @@
+;; Object controls/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "controls/"
+  :tables (list 
+   (semanticdb-table "stencil.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "stencil.js"
+    :pointmax 9025
+    :fsize 9024
+    :lastmodtime '(20331 45027)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!www!lib!js!Monocle-repo!src!controls!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

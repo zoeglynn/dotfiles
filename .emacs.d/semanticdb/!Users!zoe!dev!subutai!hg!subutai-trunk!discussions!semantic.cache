@@ -1,0 +1,43 @@
+;; Object discussions/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "discussions/"
+  :tables (list 
+   (semanticdb-table "views.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "views.py"
+    :pointmax 40430
+    :fsize 40539
+    :lastmodtime '(20359 18552)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "views.py.withAttachmentDeleteOnComment"
+    :major-mode 'python-mode
+    :tags nil
+    :file "views.py.withAttachmentDeleteOnComment"
+    :pointmax 40547
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py"
+    :pointmax 4993
+    :fsize 4992
+    :lastmodtime '(20348 33515)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "models.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "models.py"
+    :pointmax 26176
+    :fsize 26175
+    :lastmodtime '(20349 26200)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!discussions!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

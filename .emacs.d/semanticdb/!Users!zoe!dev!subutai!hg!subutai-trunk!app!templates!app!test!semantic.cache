@@ -1,0 +1,27 @@
+;; Object test/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "test/"
+  :tables (list 
+   (semanticdb-table "upload.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "upload.html"
+    :pointmax 995
+    :fsize 994
+    :lastmodtime '(20348 47976)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "jQueryUpload.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "jQueryUpload.html"
+    :pointmax 839
+    :fsize 838
+    :lastmodtime '(20347 26043)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!app!templates!app!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

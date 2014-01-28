@@ -1,0 +1,18 @@
+;; Object stencil/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "stencil/"
+  :tables (list 
+   (semanticdb-table "test.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "test.js"
+    :pointmax 1474
+    :fsize 1473
+    :lastmodtime '(20182 44579)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!www!lib!js!Monocle-repo!test!stencil!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

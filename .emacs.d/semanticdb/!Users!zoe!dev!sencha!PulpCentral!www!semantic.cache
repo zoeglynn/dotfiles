@@ -1,0 +1,45 @@
+;; Object www/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "www/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.html"
+    :pointmax 2143
+    :fsize 2142
+    :lastmodtime '(20341 4040)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "app.json"
+    :major-mode 'js-mode
+    :tags nil
+    :file "app.json"
+    :pointmax 3967
+    :fsize 3966
+    :lastmodtime '(20319 59379)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "app.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "app.js"
+    :pointmax 2511
+    :fsize 2510
+    :lastmodtime '(20323 62768)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "index.iscroll.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.iscroll.html"
+    :pointmax 2074
+    :fsize 2073
+    :lastmodtime '(20226 4350)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral!www!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

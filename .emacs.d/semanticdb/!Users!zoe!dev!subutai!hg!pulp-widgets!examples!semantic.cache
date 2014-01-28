@@ -1,0 +1,25 @@
+;; Object examples/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "examples/"
+  :tables (list 
+   (semanticdb-table "auth.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "auth.html"
+    :pointmax 497
+    :fsize 496
+    :lastmodtime '(20340 64216)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "login.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "login.html"
+    :pointmax 469
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!pulp-widgets!examples!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

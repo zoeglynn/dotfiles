@@ -1,0 +1,54 @@
+;; Object views/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "views/"
+  :tables (list 
+   (semanticdb-table "api.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "api.py"
+    :pointmax 25983
+    :fsize 30936
+    :lastmodtime '(20367 482)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "auth.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "auth.py"
+    :pointmax 55870
+    :fsize 55869
+    :lastmodtime '(20363 53325)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "util.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "util.py"
+    :pointmax 3781
+    :fsize 3780
+    :lastmodtime '(20027 48998)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "user.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "user.py"
+    :pointmax 10715
+    :fsize 9913
+    :lastmodtime '(20360 30528)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "admin.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "admin.py"
+    :pointmax 4448
+    :fsize 4447
+    :lastmodtime '(19817 21360)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!uauth!views!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,54 @@
+;; Object model/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "model/"
+  :tables (list 
+   (semanticdb-table "Event.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Event.js"
+    :pointmax 1859
+    :fsize 1858
+    :lastmodtime '(20324 913)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Publication.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Publication.js"
+    :pointmax 962
+    :fsize 961
+    :lastmodtime '(20273 34017)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Universe.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Universe.js"
+    :pointmax 485
+    :fsize 484
+    :lastmodtime '(20267 31028)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "UniverseMembership.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "UniverseMembership.js"
+    :pointmax 346
+    :fsize 345
+    :lastmodtime '(20267 15223)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Contact.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Contact.js"
+    :pointmax 119
+    :fsize 118
+    :lastmodtime '(20267 905)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral!www!app!model!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

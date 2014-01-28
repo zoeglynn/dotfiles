@@ -1,0 +1,18 @@
+;; Object lib/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lib/"
+  :tables (list 
+   (semanticdb-table "pulp_monocle.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "pulp_monocle.js"
+    :pointmax 22528
+    :fsize 22527
+    :lastmodtime '(20332 15775)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!sencha!PulpCentral!www!lib!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

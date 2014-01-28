@@ -1,0 +1,27 @@
+;; Object forum/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "forum/"
+  :tables (list 
+   (semanticdb-table "api.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "api.py"
+    :pointmax 8176
+    :fsize 8175
+    :lastmodtime '(20351 30673)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py"
+    :pointmax 3170
+    :fsize 3169
+    :lastmodtime '(20348 33515)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!forum!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

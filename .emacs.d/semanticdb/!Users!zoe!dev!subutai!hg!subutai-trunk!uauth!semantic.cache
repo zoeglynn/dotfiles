@@ -1,0 +1,118 @@
+;; Object uauth/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "uauth/"
+  :tables (list 
+   (semanticdb-table "util.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("traceback" include nil nil [1 17])
+            ("random" include nil nil [18 31])
+            ("django.contrib.auth" include nil nil [33 86])
+            ("django.contrib.sessions.models" include nil nil [87 137])
+            ("django.conf" include nil nil [138 170])
+            ("django.core.urlresolvers" include nil nil [171 215])
+            ("django.http" include nil nil [216 297])
+            ("django.db" include nil nil [298 331])
+            ("django" include nil nil [332 356])
+            ("subutai.settings" include nil nil [358 400])
+            ("subutai.commerce.models" include nil nil [426 474])
+            ("subutai.app.models" include nil nil [475 550])
+            ("subutai.uauth.views.util" include nil nil [551 632])
+            ("subutai.invitations.models" include nil nil [633 682])
+            ("subutai.util" include nil nil [683 720])
+            ("HttpResponseLoginFirst" type
+               (:superclasses ("HttpResponseRedirect")
+                :members 
+                  ( ("__init__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [793 797])
+                        ("request" variable nil (reparse-symbol function_parameters) [799 806]))                      ) (reparse-symbol indented_block_body) [779 1018]))                  
+                :type "class")
+                nil [722 1018])
+            ("HttpResponseNotAuthorized" type
+               (:superclasses ("HttpResponse")
+                :members 
+                  ( (""""Call this when the user's browser should use HTTP authentication to view the resource."""" code nil (reparse-symbol indented_block_body) [1072 1164])
+                    ("status_code" variable nil (reparse-symbol indented_block_body) [1170 1187])
+                    ("__init__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [1207 1211])
+                        ("universe" variable nil (reparse-symbol function_parameters) [1213 1221]))                      ) (reparse-symbol indented_block_body) [1193 1361]))                  
+                :type "class")
+                nil [1020 1361])
+            ("processSessionPostLogin" function (:arguments 
+              ( ("session" variable nil (reparse-symbol function_parameters) [1425 1432])
+                ("universe" variable nil (reparse-symbol function_parameters) [1434 1442])
+                ("oldSessionKey" variable nil (reparse-symbol function_parameters) [1444 1457]))              ) nil [1396 3026])
+            ("processSessionPostLogout" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [3096 3103]))              ) nil [3066 3480])
+            ("masqueradingUserContextProcessor" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [3520 3527]))              ) nil [3482 3733])
+            ("transaction" code nil nil [3736 3765])
+            ("createNewUser" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [3785 3792])
+                ("universe" variable nil (reparse-symbol function_parameters) [3794 3802])
+                ("username" variable nil (reparse-symbol function_parameters) [3804 3812])
+                ("email" variable nil (reparse-symbol function_parameters) [3814 3819])
+                ("password" variable nil (reparse-symbol function_parameters) [3821 3829])
+                ("invitation" variable nil (reparse-symbol function_parameters) [3831 3841])
+                ("userIsPreordering" variable nil (reparse-symbol function_parameters) [3843 3860]))              ) nil [3766 6651])
+            ("sendRegistrationThankYouMail" function (:arguments 
+              ( ("user" variable nil (reparse-symbol function_parameters) [6694 6698])
+                ("email" variable nil (reparse-symbol function_parameters) [6700 6705])
+                ("universe" variable nil (reparse-symbol function_parameters) [6707 6715])
+                ("domain" variable nil (reparse-symbol function_parameters) [6717 6723])
+                ("gift" variable nil (reparse-symbol function_parameters) [6725 6729]))              ) nil [6660 7178])
+            ("sendPreorderRegistrationThankYouMail" function (:arguments 
+              ( ("user" variable nil (reparse-symbol function_parameters) [7221 7225])
+                ("email" variable nil (reparse-symbol function_parameters) [7227 7232])
+                ("universe" variable nil (reparse-symbol function_parameters) [7234 7242])
+                ("domain" variable nil (reparse-symbol function_parameters) [7244 7250]))              ) nil [7179 7672])
+            ("sendForgotPasswordMail" function (:arguments 
+              ( ("email" variable nil (reparse-symbol function_parameters) [7701 7706])
+                ("universe" variable nil (reparse-symbol function_parameters) [7708 7716])
+                ("domain" variable nil (reparse-symbol function_parameters) [7718 7724]))              ) nil [7673 9727])
+            ("ExistingUserField" type
+               (:superclasses ("forms.CharField")
+                :members 
+                  ( ("clean" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [9787 9791])
+                        ("value" variable nil (reparse-symbol function_parameters) [9793 9798]))                      ) (reparse-symbol indented_block_body) [9776 10004]))                  
+                :type "class")
+                nil [9729 10004]))          
+    :file "util.py"
+    :pointmax 9045
+    :fsize 11356
+    :lastmodtime '(20361 18223)
+    :unmatched-syntax '((INDENT_BLOCK 6452 . 6626) (NEWLINE 6451 . 6452) (COLON 6450 . 6451) (FINALLY 6443 . 6450) (punctuation 3710 . 3711) (NAME 1864 . 1871) (IF 1930 . 1932) (ELSE 1953 . 1957))
+    )
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py"
+    :pointmax 5675
+    :fsize 5830
+    :lastmodtime '(20367 482)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "management.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "management.py"
+    :pointmax 1588
+    :fsize 1587
+    :lastmodtime '(20027 48997)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "decorators.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "decorators.py"
+    :pointmax 13176
+    :fsize 13912
+    :lastmodtime '(20356 26860)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!uauth!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

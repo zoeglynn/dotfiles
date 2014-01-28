@@ -1,0 +1,27 @@
+;; Object uauth/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "uauth/"
+  :tables (list 
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py"
+    :pointmax 5599
+    :fsize 5830
+    :lastmodtime '(20368 19319)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "models.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "models.py"
+    :pointmax 6715
+    :fsize 7306
+    :lastmodtime '(20368 19319)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-zoe-wip!uauth!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,860 @@
+;; Object app/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "app/"
+  :tables (list 
+   (semanticdb-table "urls.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py"
+    :pointmax 23642
+    :fsize 23925
+    :lastmodtime '(20367 482)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "models.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("urllib" include nil nil [1 29])
+            ("types" include nil nil [30 42])
+            ("math" include nil nil [43 54])
+            ("cookielib" include nil nil [55 71])
+            ("urllib2" include nil nil [72 86])
+            ("time" include nil nil [87 98])
+            ("smtplib" include nil nil [99 113])
+            ("pickle" include nil nil [114 127])
+            ("base64" include nil nil [128 141])
+            ("os" include nil nil [142 151])
+            ("datetime" include nil nil [152 167])
+            ("heapq" include nil nil [168 180])
+            ("collections" include nil nil [181 216])
+            ("email" include nil nil [217 229])
+            ("email.parser" include nil nil [230 265])
+            ("cStringIO" include nil nil [266 296])
+            ("email.generator" include nil nil [297 334])
+            ("unicodedata" include nil nil [335 353])
+            ("django.contrib.sessions.models" include nil nil [355 405])
+            ("django" include nil nil [406 430])
+            ("django.core.urlresolvers" include nil nil [431 475])
+            ("django.db" include nil nil [476 533])
+            ("django.db.models" include nil nil [534 591])
+            ("django.conf" include nil nil [592 624])
+            ("django.template" include nil nil [625 670])
+            ("django.db.models.signals" include nil nil [671 748])
+            ("django.template.base" include nil nil [749 790])
+            ("django.template.loader" include nil nil [791 853])
+            ("subutai.decorators" include nil nil [855 989])
+            ("subutai.util.s3" include nil nil [990 1023])
+            ("subutai.settings" include nil nil [1024 1294])
+            ("subutai.settings" include nil nil [1295 1365])
+            ("subutai.settings" include nil nil [1366 1501])
+            ("subutai.settings" include nil nil [1502 1582])
+            ("subutai.settings" include nil nil [1583 1642])
+            ("subutai.settings" include nil nil [1643 1706])
+            ("subutai.decorators" include nil nil [1707 1799])
+            ("subutai.util" include nil nil [1800 1948])
+            ("subutai.util.loader" include nil nil [1949 2063])
+            ("subutai.settings" include nil nil [2064 2113])
+            ("try" code nil nil [2115 2218])
+            ("ONE_WEEK_IN_SECONDS" code nil nil [2221 2259])
+            (""""
+invitationrequired   n       y                   n                 y
+membersonly          n       n                   y                 y
+                     anonok  private,free option anyone can join   private and register
+"""" code nil nil [2261 2494])
+            ("django.contrib.auth.models" include nil nil [2496 2553])
+            ("User" type
+               (:superclasses ("DjangoUser")
+                :members 
+                  ( ("Meta" type
+                       (:members 
+                          ( ("proxy" variable nil (reparse-symbol indented_block_body) [2603 2615]))                          
+                        :type "class")
+                        (reparse-symbol indented_block_body) [2583 2616])
+                    ("permalink" code nil (reparse-symbol indented_block_body) [2622 2631])
+                    ("get_absolute_url" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [2658 2662]))                      ) (reparse-symbol indented_block_body) [2636 2722])
+                    ("property" code nil (reparse-symbol indented_block_body) [2728 2736])
+                    ("stripeCustomer" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [2761 2765]))                      ) (reparse-symbol indented_block_body) [2741 2924])
+                    ("profile" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [2942 2946])
+                        ("universe" variable nil (reparse-symbol function_parameters) [2948 2956])
+                        ("createIfMissing" variable nil (reparse-symbol function_parameters) [2958 2973]))                      ) (reparse-symbol indented_block_body) [2929 3256])
+                    ("emailSentTo" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [3278 3282])
+                        ("when" variable nil (reparse-symbol function_parameters) [3284 3288]))                      ) (reparse-symbol indented_block_body) [3261 3689])
+                    ("firstPostLoginPage" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [3718 3722])
+                        ("universe" variable nil (reparse-symbol function_parameters) [3724 3732])
+                        ("session" variable nil (reparse-symbol function_parameters) [3734 3741])
+                        ("nextPage" variable nil (reparse-symbol function_parameters) [3743 3751]))                      ) (reparse-symbol indented_block_body) [3694 4385])
+                    ("associated_emails" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [4412 4416])
+                        ("lower" variable nil (reparse-symbol function_parameters) [4418 4423]))                      ) (reparse-symbol indented_block_body) [4390 4924])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [4930 4941])
+                    ("findByEmail" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [5013 5016])
+                        ("email" variable nil (reparse-symbol function_parameters) [5018 5023]))                      ) (reparse-symbol indented_block_body) [4996 5236]))                  
+                :type "class")
+                nil [2554 5236])
+            ("ClientPlatform" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("name" variable nil (reparse-symbol indented_block_body) [5279 5377])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [5396 5400]))                      ) (reparse-symbol indented_block_body) [5383 5428])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [5434 5445])
+                    ("memoize" code nil (reparse-symbol indented_block_body) [5451 5458])
+                    ("Named" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [5474 5477])
+                        ("name" variable nil (reparse-symbol function_parameters) [5479 5483]))                      ) (reparse-symbol indented_block_body) [5463 5529]))                  
+                :type "class")
+                nil [5238 5529])
+            ("Universe" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("name" variable nil (reparse-symbol indented_block_body) [5566 5667])
+                    ("slug" variable nil (reparse-symbol indented_block_body) [5672 5775])
+                    ("uberAdmin" variable nil (reparse-symbol indented_block_body) [5780 5816])
+                    ("invitationRequired" variable nil (reparse-symbol indented_block_body) [5821 5969])
+                    ("membersOnly" variable nil (reparse-symbol indented_block_body) [5974 6120])
+                    ("hasCanon" variable nil (reparse-symbol indented_block_body) [6125 6244])
+                    ("hasFans" variable nil (reparse-symbol indented_block_body) [6249 6353])
+                    ("ipOwner" variable nil (reparse-symbol indented_block_body) [6358 6462])
+                    ("wikiMainPageName" variable nil (reparse-symbol indented_block_body) [6467 6582])
+                    ("defaultLanguage" variable nil (reparse-symbol indented_block_body) [6587 6694])
+                    ("privateContentGroup" variable nil (reparse-symbol indented_block_body) [6744 6938])
+                    ("mail" variable nil (reparse-symbol indented_block_body) [6943 7031])
+                    ("whitelistTags" variable nil (reparse-symbol indented_block_body) [7037 7208])
+                    ("rankDiscipline" variable nil (reparse-symbol indented_block_body) [7213 7281])
+                    ("initialRankLevel" variable nil (reparse-symbol indented_block_body) [7286 7477])
+                    ("rankToEditTags" variable nil (reparse-symbol indented_block_body) [7526 7640])
+                    ("rankToAdminArtSpecs" variable nil (reparse-symbol indented_block_body) [7645 7773])
+                    ("anonymousUserCanViewPublicWiki" variable nil (reparse-symbol indented_block_body) [7780 7925])
+                    ("defaultUserCanPostBlog" variable nil (reparse-symbol indented_block_body) [7930 8063])
+                    ("defaultUserCanEditWiki" variable nil (reparse-symbol indented_block_body) [8068 8197])
+                    ("adultContentAllowed" variable nil (reparse-symbol indented_block_body) [8203 8319])
+                    ("adultContentTagged" variable nil (reparse-symbol indented_block_body) [8324 8438])
+                    ("adultContentFilterOptional" variable nil (reparse-symbol indented_block_body) [8443 8567])
+                    ("cachedclassproperty" code nil (reparse-symbol indented_block_body) [8574 8593])
+                    ("Default" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [8611 8614]))                      ) (reparse-symbol indented_block_body) [8598 8677])
+                    ("property" code nil (reparse-symbol indented_block_body) [8683 8691])
+                    ("isDefault" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [8711 8715]))                      ) (reparse-symbol indented_block_body) [8696 8768])
+                    ("cached_model_object_property" code nil (reparse-symbol indented_block_body) [8774 8802])
+                    ("publicTag" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [8822 8826]))                      ) (reparse-symbol indented_block_body) [8807 8967])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [8974 8985])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [8991 9040])
+                    ("Get" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [9054 9057])
+                        ("id" variable nil (reparse-symbol function_parameters) [9059 9061]))                      ) (reparse-symbol indented_block_body) [9045 9103])
+                    ("property" code nil (reparse-symbol indented_block_body) [9110 9118])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [9124 9171])
+                    ("commentCount" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [9194 9198]))                      ) (reparse-symbol indented_block_body) [9176 9276])
+                    ("property" code nil (reparse-symbol indented_block_body) [9282 9290])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [9296 9343])
+                    ("forumTopicCount" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [9369 9373]))                      ) (reparse-symbol indented_block_body) [9348 9449])
+                    ("property" code nil (reparse-symbol indented_block_body) [9455 9463])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [9469 9516])
+                    ("wikiRevisionCount" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [9544 9548]))                      ) (reparse-symbol indented_block_body) [9521 9626])
+                    ("property" code nil (reparse-symbol indented_block_body) [9632 9640])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [9646 9693])
+                    ("wikiFileCount" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [9717 9721]))                      ) (reparse-symbol indented_block_body) [9698 9801])
+                    ("property" code nil (reparse-symbol indented_block_body) [9807 9815])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [9821 9868])
+                    ("blogPostCount" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [9892 9896]))                      ) (reparse-symbol indented_block_body) [9873 9937])
+                    ("property" code nil (reparse-symbol indented_block_body) [9943 9951])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [9957 10004])
+                    ("contentItemCount" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [10031 10035]))                      ) (reparse-symbol indented_block_body) [10009 10190])
+                    ("property" code nil (reparse-symbol indented_block_body) [10196 10204])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [10210 10257])
+                    ("updateCount" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [10279 10283]))                      ) (reparse-symbol indented_block_body) [10262 10447])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [10453 10464])
+                    ("ValidateSlug" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [10487 10490])
+                        ("slug" variable nil (reparse-symbol function_parameters) [10492 10496]))                      ) (reparse-symbol indented_block_body) [10469 11204])
+                    ("wikiPage" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [11224 11228])
+                        ("name" variable nil (reparse-symbol function_parameters) [11230 11234]))                      ) (reparse-symbol indented_block_body) [11210 11282])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [11288 11299])
+                    ("FromDomain" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [11320 11323])
+                        ("domain" variable nil (reparse-symbol function_parameters) [11325 11331]))                      ) (reparse-symbol indented_block_body) [11304 11677])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [11683 11694])
+                    ("FromDomains" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [11716 11719])
+                        ("domainCandidates" variable nil (reparse-symbol function_parameters) [11721 11738]))                      ) (reparse-symbol indented_block_body) [11699 12185])
+                    ("property" code nil (reparse-symbol indented_block_body) [12191 12199])
+                    ("tagWhitelist" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [12222 12226]))                      ) (reparse-symbol indented_block_body) [12204 12284])
+                    ("property" code nil (reparse-symbol indented_block_body) [12290 12298])
+                    ("tagBlacklist" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [12321 12325]))                      ) (reparse-symbol indented_block_body) [12303 12382])
+                    ("popularTags" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [12404 12408])
+                        ("rankLevel" variable nil (reparse-symbol function_parameters) [12410 12419]))                      ) (reparse-symbol indented_block_body) [12387 12815])
+                    ("memoize_timed" code nil (reparse-symbol indented_block_body) [12821 12868])
+                    ("tagCloudData" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [12891 12895])
+                        ("count" variable nil (reparse-symbol function_parameters) [12897 12902])
+                        ("sizeA" variable nil (reparse-symbol function_parameters) [12904 12909])
+                        ("sizeB" variable nil (reparse-symbol function_parameters) [12911 12916])
+                        ("rankLevel" variable nil (reparse-symbol function_parameters) [12918 12927]))                      ) (reparse-symbol indented_block_body) [12873 13677])
+                    ("cleanupSessions" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [13704 13708])
+                        ("really" variable nil (reparse-symbol function_parameters) [13710 13716]))                      ) (reparse-symbol indented_block_body) [13683 14322])
+                    ("transaction" code nil (reparse-symbol indented_block_body) [14328 14357])
+                    ("setupRankDiscipline" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [14387 14391]))                      ) (reparse-symbol indented_block_body) [14362 15008])
+                    ("mostRecentPublicationForUser" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [15047 15051])
+                        ("user" variable nil (reparse-symbol function_parameters) [15053 15057])
+                        ("createIfNone" variable nil (reparse-symbol function_parameters) [15059 15071]))                      ) (reparse-symbol indented_block_body) [15013 15687])
+                    ("personalProject" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [15713 15717])
+                        ("user" variable nil (reparse-symbol function_parameters) [15719 15723])
+                        ("createIfNone" variable nil (reparse-symbol function_parameters) [15725 15737]))                      ) (reparse-symbol indented_block_body) [15692 16021])
+                    ("save" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [16036 16040])
+                        ("args" variable nil (reparse-symbol function_parameters) [16042 16047])
+                        ("kwargs" variable nil (reparse-symbol function_parameters) [16049 16057]))                      ) (reparse-symbol indented_block_body) [16026 17774])
+                    ("property" code nil (reparse-symbol indented_block_body) [17780 17788])
+                    ("mainProject" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [17810 17814]))                      ) (reparse-symbol indented_block_body) [17793 18527])
+                    ("property" code nil (reparse-symbol indented_block_body) [18534 18542])
+                    ("memoize_timed_with_ids" code nil (reparse-symbol indented_block_body) [18548 18604])
+                    ("pediaLinkDict" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [18628 18632]))                      ) (reparse-symbol indented_block_body) [18609 19261])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [19267 19278])
+                    ("AnyForUser" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [19299 19302])
+                        ("user" variable nil (reparse-symbol function_parameters) [19304 19308]))                      ) (reparse-symbol indented_block_body) [19283 19490])
+                    ("property" code nil (reparse-symbol indented_block_body) [19496 19504])
+                    ("users" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [19520 19524]))                      ) (reparse-symbol indented_block_body) [19509 19643])
+                    ("if" code nil (reparse-symbol indented_block_body) [19718 20046])
+                    ("topWikiPageCreators" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [20076 20080])
+                        ("includePrivate" variable nil (reparse-symbol function_parameters) [20082 20096]))                      ) (reparse-symbol indented_block_body) [20051 20205])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [20212 20223])
+                    ("GetTemplateInContext" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [20254 20257])
+                        ("context" variable nil (reparse-symbol function_parameters) [20259 20266])
+                        ("templatePath" variable nil (reparse-symbol function_parameters) [20268 20280]))                      ) (reparse-symbol indented_block_body) [20228 20862])
+                    ("cachedclassproperty" code nil (reparse-symbol indented_block_body) [20869 20888])
+                    ("GetTemplate" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [20910 20913]))                      ) (reparse-symbol indented_block_body) [20893 21091])
+                    ("property" code nil (reparse-symbol indented_block_body) [21097 21105])
+                    ("basicLevel" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [21126 21130]))                      ) (reparse-symbol indented_block_body) [21110 21366])
+                    ("property" code nil (reparse-symbol indented_block_body) [21372 21380])
+                    ("premiumLevel" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [21403 21407]))                      ) (reparse-symbol indented_block_body) [21385 21644])
+                    ("validate" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [21663 21667]))                      ) (reparse-symbol indented_block_body) [21649 23942])
+                    ("cached_property" code nil (reparse-symbol indented_block_body) [23950 23965])
+                    ("currencyCode" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [23988 23992]))                      ) (reparse-symbol indented_block_body) [23970 24016])
+                    ("getContributorPaymentRate" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [24052 24056]))                      ) (reparse-symbol indented_block_body) [24021 24168])
+                    ("getWorldCreatorPaymentRate" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [24205 24209]))                      ) (reparse-symbol indented_block_body) [24173 24322])
+                    ("getWorldCreatorSunsetDate" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [24358 24362]))                      ) (reparse-symbol indented_block_body) [24327 24589])
+                    ("property" code nil (reparse-symbol indented_block_body) [24604 24612])
+                    ("currentProject" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [24637 24641]))                      ) (reparse-symbol indented_block_body) [24617 25061])
+                    ("property" code nil (reparse-symbol indented_block_body) [25067 25075])
+                    ("currentPublication" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [25104 25108]))                      ) (reparse-symbol indented_block_body) [25080 25682])
+                    ("property" code nil (reparse-symbol indented_block_body) [25688 25696])
+                    ("rankNameForAnonymousUser" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [25731 25735]))                      ) (reparse-symbol indented_block_body) [25701 25915])
+                    ("rankName" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [25934 25938])
+                        ("rankLevel" variable nil (reparse-symbol function_parameters) [25940 25949]))                      ) (reparse-symbol indented_block_body) [25920 26518])
+                    ("signinRequired" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [26543 26547]))                      ) (reparse-symbol indented_block_body) [26523 26609])
+                    ("cached_property" code nil (reparse-symbol indented_block_body) [26615 26630])
+                    ("mainDomain" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [26651 26655]))                      ) (reparse-symbol indented_block_body) [26635 27125])
+                    ("cached_property" code nil (reparse-symbol indented_block_body) [27132 27147])
+                    ("mainDomainRecord" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [27174 27178]))                      ) (reparse-symbol indented_block_body) [27152 27469])
+                    ("userCanAccess" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [27493 27497])
+                        ("user" variable nil (reparse-symbol function_parameters) [27499 27503]))                      ) (reparse-symbol indented_block_body) [27474 27639])
+                    ("profileForUser" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [27664 27668])
+                        ("user" variable nil (reparse-symbol function_parameters) [27670 27674])
+                        ("createIfAbsent" variable nil (reparse-symbol function_parameters) [27676 27690]))                      ) (reparse-symbol indented_block_body) [27644 27951])
+                    ("userNeedsSubscription" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [27983 27987])
+                        ("user" variable nil (reparse-symbol function_parameters) [27989 27993]))                      ) (reparse-symbol indented_block_body) [27956 28609])
+                    ("memoize_timed_with_ids" code nil (reparse-symbol indented_block_body) [28615 28669])
+                    ("userCanAdmin" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [28692 28696])
+                        ("user" variable nil (reparse-symbol function_parameters) [28698 28702]))                      ) (reparse-symbol indented_block_body) [28674 29197])
+                    ("memoize_timed_with_ids" code nil (reparse-symbol indented_block_body) [29203 29257])
+                    ("userIsCanonAuthor" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [29285 29289])
+                        ("user" variable nil (reparse-symbol function_parameters) [29291 29295]))                      ) (reparse-symbol indented_block_body) [29262 29673])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [29692 29696]))                      ) (reparse-symbol indented_block_body) [29679 29724])
+                    ("resetTemplate" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [29748 29752])
+                        ("name" variable nil (reparse-symbol function_parameters) [29754 29758]))                      ) (reparse-symbol indented_block_body) [29729 29892])
+                    ("storeTemplate" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [29917 29921])
+                        ("name" variable nil (reparse-symbol function_parameters) [29923 29927])
+                        ("data" variable nil (reparse-symbol function_parameters) [29929 29933]))                      ) (reparse-symbol indented_block_body) [29898 30304])
+                    ("__TEMPLATES" variable nil (reparse-symbol indented_block_body) [30310 30342])
+                    ("getTemplate" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [30364 30368])
+                        ("name" variable nil (reparse-symbol function_parameters) [30370 30374]))                      ) (reparse-symbol indented_block_body) [30347 32717]))                  
+                :type "class")
+                nil [5531 32717])
+            ("APIKey" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("platform" variable nil (reparse-symbol indented_block_body) [32753 32798])
+                    ("token" variable nil (reparse-symbol indented_block_body) [32803 32876])
+                    ("user" variable nil (reparse-symbol indented_block_body) [32881 32955])
+                    ("valid" variable nil (reparse-symbol indented_block_body) [32960 33002])
+                    ("issued" variable nil (reparse-symbol indented_block_body) [33007 33068])
+                    ("universe" variable nil (reparse-symbol indented_block_body) [33073 33140])
+                    ("userCanAdmin" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [33164 33168])
+                        ("user" variable nil (reparse-symbol function_parameters) [33170 33174]))                      ) (reparse-symbol indented_block_body) [33146 33359])
+                    ("__unicode__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [33381 33385]))                      ) (reparse-symbol indented_block_body) [33364 33414])
+                    ("property" code nil (reparse-symbol indented_block_body) [33420 33428])
+                    ("welcomeMessage" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [33453 33457]))                      ) (reparse-symbol indented_block_body) [33433 33550]))                  
+                :type "class")
+                nil [32720 33550])
+            ("UniverseUserGroup" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("universe" variable nil (reparse-symbol indented_block_body) [33596 33635])
+                    ("name" variable nil (reparse-symbol indented_block_body) [33640 33679])
+                    ("user" variable nil (reparse-symbol indented_block_body) [33684 33720])
+                    ("Meta" type
+                       (:members 
+                          ( ("unique_together" variable nil (reparse-symbol indented_block_body) [33895 33936]))                          
+                        :type "class")
+                        (reparse-symbol indented_block_body) [33875 33937])
+                    ("__unicode__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [33959 33963]))                      ) (reparse-symbol indented_block_body) [33942 33991]))                  
+                :type "class")
+                nil [33552 33991])
+            ("DomainUniverseMap" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("universe" variable nil (reparse-symbol indented_block_body) [34037 34076])
+                    ("domain" variable nil (reparse-symbol indented_block_body) [34081 34123])
+                    ("isDebugging" variable nil (reparse-symbol indented_block_body) [34128 34177])
+                    ("isStaging" variable nil (reparse-symbol indented_block_body) [34182 34229])
+                    ("if" code nil (reparse-symbol indented_block_body) [34319 34827])
+                    ("property" code nil (reparse-symbol indented_block_body) [34834 34842])
+                    ("getDomain" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [34862 34866]))                      ) (reparse-symbol indented_block_body) [34847 34952])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [34970 34974]))                      ) (reparse-symbol indented_block_body) [34957 35039]))                  
+                :type "class")
+                nil [33993 35039])
+            ("if" code nil nil [35040 35305])
+            ("DomainProjectMap" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("project" variable nil (reparse-symbol indented_block_body) [35350 35397])
+                    ("domain" variable nil (reparse-symbol indented_block_body) [35402 35444])
+                    ("isDebugging" variable nil (reparse-symbol indented_block_body) [35449 35498])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [35517 35521]))                      ) (reparse-symbol indented_block_body) [35504 35586]))                  
+                :type "class")
+                nil [35307 35586])
+            ("KeyDateMap" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( (""""Used to store maps between unique keys and values"""" code nil (reparse-symbol indented_block_body) [35625 35680])
+                    ("key" variable nil (reparse-symbol indented_block_body) [35685 35736])
+                    ("value" variable nil (reparse-symbol indented_block_body) [35741 35768])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [35791 35795]))                      ) (reparse-symbol indented_block_body) [35778 35847])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [35853 35864])
+                    ("ValueForKey" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [35886 35889])
+                        ("key" variable nil (reparse-symbol function_parameters) [35891 35894])
+                        ("default" variable nil (reparse-symbol function_parameters) [35896 35903]))                      ) (reparse-symbol indented_block_body) [35869 36057])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [36063 36074])
+                    ("SetValueForKey" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [36099 36102])
+                        ("key" variable nil (reparse-symbol function_parameters) [36104 36107])
+                        ("value" variable nil (reparse-symbol function_parameters) [36109 36114]))                      ) (reparse-symbol indented_block_body) [36079 36302]))                  
+                :type "class")
+                nil [35588 36302])
+            ("UserUniverseProfile" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("user" variable nil (reparse-symbol indented_block_body) [36350 36381])
+                    ("universe" variable nil (reparse-symbol indented_block_body) [36386 36425])
+                    ("dateJoined" variable nil (reparse-symbol indented_block_body) [36430 36494])
+                    ("canonAuthor" variable nil (reparse-symbol indented_block_body) [36504 36596])
+                    ("admin" variable nil (reparse-symbol indented_block_body) [36622 36716])
+                    ("canPostBlog" variable nil (reparse-symbol indented_block_body) [36722 36837])
+                    ("canEditWiki" variable nil (reparse-symbol indented_block_body) [36842 36950])
+                    ("receivesPrereleaseContent" variable nil (reparse-symbol indented_block_body) [36956 37076])
+                    ("mailWhenFollowedUserEditsWiki" variable nil (reparse-symbol indented_block_body) [37082 37222])
+                    ("mailWhenFollowedUserMakesComment" variable nil (reparse-symbol indented_block_body) [37227 37371])
+                    ("mailWhenFollowedUserMakesForumTopic" variable nil (reparse-symbol indented_block_body) [37376 37533])
+                    ("replySubscription" variable nil (reparse-symbol indented_block_body) [37539 37688])
+                    ("blogPostReplySubscription" variable nil (reparse-symbol indented_block_body) [37693 37852])
+                    ("wikiEditWatchlistAddition" variable nil (reparse-symbol indented_block_body) [37857 38031])
+                    ("wikiWatchlistSubscription" variable nil (reparse-symbol indented_block_body) [38036 38192])
+                    ("allWikiEditsSubscription" variable nil (reparse-symbol indented_block_body) [38197 38340])
+                    ("allBlogPostsSubscription" variable nil (reparse-symbol indented_block_body) [38345 38487])
+                    ("allCommentsSubscription" variable nil (reparse-symbol indented_block_body) [38492 38641])
+                    ("referralBonusAddedAlerts" variable nil (reparse-symbol indented_block_body) [38647 38834])
+                    ("awardAlerts" variable nil (reparse-symbol indented_block_body) [38839 38970])
+                    ("newContentAlerts" variable nil (reparse-symbol indented_block_body) [38975 39107])
+                    ("newMessageAlerts" variable nil (reparse-symbol indented_block_body) [39112 39243])
+                    ("showContentPediaLinks" variable nil (reparse-symbol indented_block_body) [39248 39375])
+                    ("invitations" variable nil (reparse-symbol indented_block_body) [39381 39460])
+                    ("commentUpVotes" variable nil (reparse-symbol indented_block_body) [39808 39959])
+                    ("commentDownVotes" variable nil (reparse-symbol indented_block_body) [39964 40022])
+                    ("goodRep" variable nil (reparse-symbol indented_block_body) [40027 40076])
+                    ("badRep" variable nil (reparse-symbol indented_block_body) [40081 40129])
+                    ("preorderOnly" variable nil (reparse-symbol indented_block_body) [40135 40235])
+                    ("Meta" type
+                       (:members 
+                          ( ("unique_together" variable nil (reparse-symbol indented_block_body) [40261 40302]))                          
+                        :type "class")
+                        (reparse-symbol indented_block_body) [40241 40303])
+                    ("property" code nil (reparse-symbol indented_block_body) [40309 40317])
+                    ("privateContentUser" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [40346 40350]))                      ) (reparse-symbol indented_block_body) [40322 40527])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [40534 40545])
+                    ("Create" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [40562 40565])
+                        ("user" variable nil (reparse-symbol function_parameters) [40567 40571])
+                        ("universe" variable nil (reparse-symbol function_parameters) [40573 40581]))                      ) (reparse-symbol indented_block_body) [40550 40787])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [40805 40809]))                      ) (reparse-symbol indented_block_body) [40792 40945])
+                    ("property" code nil (reparse-symbol indented_block_body) [40951 40959])
+                    ("invitationList" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [40984 40988]))                      ) (reparse-symbol indented_block_body) [40964 41063])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [41069 41080])
+                    ("LowRankingUser" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [41105 41108])
+                        ("universe" variable nil (reparse-symbol function_parameters) [41110 41118]))                      ) (reparse-symbol indented_block_body) [41085 41577])
+                    ("property" code nil (reparse-symbol indented_block_body) [41583 41591])
+                    ("currentSubscription" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [41621 41625]))                      ) (reparse-symbol indented_block_body) [41596 41810])
+                    ("property" code nil (reparse-symbol indented_block_body) [41816 41824])
+                    ("invited" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [41842 41846]))                      ) (reparse-symbol indented_block_body) [41829 41921])
+                    ("shareKey" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [41941 41945]))                      ) (reparse-symbol indented_block_body) [41927 42356])
+                    ("staticmethod" code nil (reparse-symbol indented_block_body) [42362 42374])
+                    ("WhoseShareKey" function (:arguments 
+                      ( ("universe" variable nil (reparse-symbol function_parameters) [42398 42406])
+                        ("key" variable nil (reparse-symbol function_parameters) [42408 42411]))                      ) (reparse-symbol indented_block_body) [42379 42885])
+                    ("awards" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [42903 42907]))                      ) (reparse-symbol indented_block_body) [42891 43122])
+                    ("setRank" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [43148 43152])
+                        ("level" variable nil (reparse-symbol function_parameters) [43154 43159]))                      ) (reparse-symbol indented_block_body) [43135 43629])
+                    ("promote" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [43647 43651])
+                        ("level" variable nil (reparse-symbol function_parameters) [43653 43658]))                      ) (reparse-symbol indented_block_body) [43634 43814])
+                    ("grantAward" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [43836 43840])
+                        ("discipline" variable nil (reparse-symbol function_parameters) [43842 43852])
+                        ("level" variable nil (reparse-symbol function_parameters) [43854 43859])
+                        ("when" variable nil (reparse-symbol function_parameters) [43861 43865]))                      ) (reparse-symbol indented_block_body) [43820 44691])
+                    ("property" code nil (reparse-symbol indented_block_body) [44698 44706])
+                    ("rankLevel" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [44726 44730]))                      ) (reparse-symbol indented_block_body) [44711 45017])
+                    ("property" code nil (reparse-symbol indented_block_body) [45032 45040])
+                    ("rankName" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [45059 45063]))                      ) (reparse-symbol indented_block_body) [45045 45529])
+                    ("property" code nil (reparse-symbol indented_block_body) [45536 45544])
+                    ("rankLevelAndName" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [45571 45575]))                      ) (reparse-symbol indented_block_body) [45549 46059])
+                    ("inUniverseGroup" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [46086 46090])
+                        ("name" variable nil (reparse-symbol function_parameters) [46092 46096]))                      ) (reparse-symbol indented_block_body) [46065 46263])
+                    ("canWriteCanon" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [46287 46291]))                      ) (reparse-symbol indented_block_body) [46268 46421])
+                    ("canAdminUniverse" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [46448 46452]))                      ) (reparse-symbol indented_block_body) [46426 46569])
+                    ("property" code nil (reparse-symbol indented_block_body) [46575 46583])
+                    ("shouldReceivePrereleaseContent" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [46624 46628]))                      ) (reparse-symbol indented_block_body) [46588 46808])
+                    ("property" code nil (reparse-symbol indented_block_body) [46814 46822])
+                    ("shouldReceiveEverything" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [46856 46860]))                      ) (reparse-symbol indented_block_body) [46827 47040])
+                    ("property" code nil (reparse-symbol indented_block_body) [47046 47054])
+                    ("needsSubscription" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [47082 47086]))                      ) (reparse-symbol indented_block_body) [47059 47290])
+                    ("needsInvitation" variable nil (reparse-symbol indented_block_body) [47294 47329])
+                    ("property" code nil (reparse-symbol indented_block_body) [47336 47344])
+                    ("reputation" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [47365 47369]))                      ) (reparse-symbol indented_block_body) [47349 47458])
+                    ("property" code nil (reparse-symbol indented_block_body) [47464 47472])
+                    ("commentScore" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [47495 47499]))                      ) (reparse-symbol indented_block_body) [47477 47671]))                  
+                :type "class")
+                nil [36304 47671])
+            ("Country" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("code" variable nil (reparse-symbol indented_block_body) [47707 47744])
+                    ("name" variable nil (reparse-symbol indented_block_body) [47749 47789])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [47808 47812]))                      ) (reparse-symbol indented_block_body) [47795 47865])
+                    ("CountryChoiceField" type
+                       (:superclasses ("forms.ModelChoiceField")
+                        :members 
+                          ( ("__init__" function (:arguments 
+                              ( ("self" variable nil (reparse-symbol function_parameters) [47943 47947])
+                                ("args" variable nil (reparse-symbol function_parameters) [47949 47954])
+                                ("kwargs" variable nil (reparse-symbol function_parameters) [47956 47964]))                              ) (reparse-symbol indented_block_body) [47929 48165])
+                            ("label_from_instance" function (:arguments 
+                              ( ("self" variable nil (reparse-symbol function_parameters) [48199 48203])
+                                ("obj" variable nil (reparse-symbol function_parameters) [48205 48208]))                              ) (reparse-symbol indented_block_body) [48174 48239]))                          
+                        :type "class")
+                        (reparse-symbol indented_block_body) [47870 48239]))                  
+                :type "class")
+                nil [47673 48239])
+            ("UserProfile" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( (""""For stuff associated with a user."""" code nil (reparse-symbol indented_block_body) [48279 48318])
+                    ("user" variable nil (reparse-symbol indented_block_body) [48323 48388])
+                    ("emailVerified" variable nil (reparse-symbol indented_block_body) [48393 48510])
+                    ("plaintextEmails" variable nil (reparse-symbol indented_block_body) [48515 48630])
+                    ("hasAvatar" variable nil (reparse-symbol indented_block_body) [48635 48746])
+                    ("tosAccepted" variable nil (reparse-symbol indented_block_body) [48830 48925])
+                    ("acceptedServicesLicenseAgreement" variable nil (reparse-symbol indented_block_body) [48930 49069])
+                    ("address1" variable nil (reparse-symbol indented_block_body) [49154 49241])
+                    ("address2" variable nil (reparse-symbol indented_block_body) [49246 49334])
+                    ("city" variable nil (reparse-symbol indented_block_body) [49339 49410])
+                    ("state" variable nil (reparse-symbol indented_block_body) [49415 49500])
+                    ("country" variable nil (reparse-symbol indented_block_body) [49505 49587])
+                    ("avatarIndex" variable nil (reparse-symbol indented_block_body) [49592 49697])
+                    ("events" variable nil (reparse-symbol indented_block_body) [49702 49795])
+                    ("property" code nil (reparse-symbol indented_block_body) [49802 49810])
+                    ("registrationComplete" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [49841 49845]))                      ) (reparse-symbol indented_block_body) [49815 50084])
+                    ("property" code nil (reparse-symbol indented_block_body) [50090 50098])
+                    ("servicesLicenseAgreementComplete" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [50141 50145]))                      ) (reparse-symbol indented_block_body) [50103 50280])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [50299 50303]))                      ) (reparse-symbol indented_block_body) [50286 50340])
+                    ("_temporaryCalculateEventsCount" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [50381 50385]))                      ) (reparse-symbol indented_block_body) [50345 50720])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [50726 50737])
+                    ("TemporaryFillEventCounts" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [50772 50775]))                      ) (reparse-symbol indented_block_body) [50742 51282])
+                    ("property" code nil (reparse-symbol indented_block_body) [51289 51297])
+                    ("avatarKey" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [51317 51321]))                      ) (reparse-symbol indented_block_body) [51302 51485])
+                    ("property" code nil (reparse-symbol indented_block_body) [51491 51499])
+                    ("avatarURL" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [51519 51523]))                      ) (reparse-symbol indented_block_body) [51504 51577])
+                    ("avatarFilePath" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [51603 51607]))                      ) (reparse-symbol indented_block_body) [51583 51784])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [51848 51859])
+                    ("Create" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [51876 51879])
+                        ("sender" variable nil (reparse-symbol function_parameters) [51881 51887])
+                        ("instance" variable nil (reparse-symbol function_parameters) [51894 51902])
+                        ("created" variable nil (reparse-symbol function_parameters) [51909 51916])
+                        ("kwargs" variable nil (reparse-symbol function_parameters) [51923 51931]))                      ) (reparse-symbol indented_block_body) [51864 52245])
+                    ("saveAvatar" function (:arguments 
+                      ( ("imageData" variable nil (reparse-symbol function_parameters) [52266 52275]))                      ) (reparse-symbol indented_block_body) [52251 52291]))                  
+                :type "class")
+                nil [48241 52291])
+            ("AssociatedEmail" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("user" variable nil (reparse-symbol indented_block_body) [52336 52366])
+                    ("email" variable nil (reparse-symbol indented_block_body) [52371 52398])
+                    ("verified" variable nil (reparse-symbol indented_block_body) [52403 52448]))                  
+                :type "class")
+                nil [52294 52449])
+            ("MessageField" type
+               (:superclasses ("models.TextField")
+                :members 
+                  ( (""""Keeping this as an example but currently unused and possibly buggy."""" code nil (reparse-symbol indented_block_body) [52495 52568])
+                    ("__metaclass__" variable nil (reparse-symbol indented_block_body) [52573 52608])
+                    ("get_internal_type" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [52636 52640]))                      ) (reparse-symbol indented_block_body) [52614 52670])
+                    ("get_prep_value" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [52694 52698])
+                        ("value" variable nil (reparse-symbol function_parameters) [52700 52705]))                      ) (reparse-symbol indented_block_body) [52675 52810])
+                    ("to_python" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [52830 52834])
+                        ("value" variable nil (reparse-symbol function_parameters) [52836 52841]))                      ) (reparse-symbol indented_block_body) [52815 52902]))                  
+                :type "class")
+                nil [52452 52902])
+            ("CustomMailMessage" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("universe" variable nil (reparse-symbol indented_block_body) [53016 53055])
+                    ("publication" variable nil (reparse-symbol indented_block_body) [53060 53126])
+                    ("user" variable nil (reparse-symbol indented_block_body) [53131 53162])
+                    ("recipients" variable nil (reparse-symbol indented_block_body) [53167 53212])
+                    ("comment" variable nil (reparse-symbol indented_block_body) [53217 53260])
+                    ("used" variable nil (reparse-symbol indented_block_body) [53265 53304])
+                    ("subject" variable nil (reparse-symbol indented_block_body) [53309 53363])
+                    ("bodyText" variable nil (reparse-symbol indented_block_body) [53368 53407])
+                    ("bodyHTML" variable nil (reparse-symbol indented_block_body) [53412 53451])
+                    ("userCanAdmin" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [53475 53479])
+                        ("user" variable nil (reparse-symbol function_parameters) [53481 53485]))                      ) (reparse-symbol indented_block_body) [53457 53558])
+                    ("_getDestinationEmailAddresses" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [53598 53602]))                      ) (reparse-symbol indented_block_body) [53563 54660])
+                    ("sendToUsers" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [54682 54686]))                      ) (reparse-symbol indented_block_body) [54665 55041])
+                    ("property" code nil (reparse-symbol indented_block_body) [55047 55055])
+                    ("explanation" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [55077 55081]))                      ) (reparse-symbol indented_block_body) [55060 55723])
+                    ("property" code nil (reparse-symbol indented_block_body) [55729 55737])
+                    ("defaultText" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [55759 55763]))                      ) (reparse-symbol indented_block_body) [55742 56192])
+                    ("property" code nil (reparse-symbol indented_block_body) [56198 56206])
+                    ("defaultHTML" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [56228 56232]))                      ) (reparse-symbol indented_block_body) [56211 56816])
+                    ("property" code nil (reparse-symbol indented_block_body) [56839 56847])
+                    ("sendable" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [56866 56870]))                      ) (reparse-symbol indented_block_body) [56852 56977])
+                    ("property" code nil (reparse-symbol indented_block_body) [56983 56991])
+                    ("message" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [57009 57013]))                      ) (reparse-symbol indented_block_body) [56996 57131])
+                    ("staticmethod" code nil (reparse-symbol indented_block_body) [57137 57149])
+                    ("FlattenMessage" function (:arguments 
+                      ( ("message" variable nil (reparse-symbol function_parameters) [57174 57181]))                      ) (reparse-symbol indented_block_body) [57154 57363])
+                    ("sendTo" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [57380 57384])
+                        ("emailList" variable nil (reparse-symbol function_parameters) [57386 57395]))                      ) (reparse-symbol indented_block_body) [57368 57790])
+                    ("__unicode__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [57812 57816]))                      ) (reparse-symbol indented_block_body) [57795 58250]))                  
+                :type "class")
+                nil [52972 58250])
+            ("UniverseRequestTrackerProfile" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("universe" variable nil (reparse-symbol indented_block_body) [58308 58374])
+                    ("username" variable nil (reparse-symbol indented_block_body) [58379 58422])
+                    ("password" variable nil (reparse-symbol indented_block_body) [58427 58470])
+                    ("url" variable nil (reparse-symbol indented_block_body) [58475 58513])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [58520 58531])
+                    ("memoize_timed_with_ids" code nil (reparse-symbol indented_block_body) [58537 58591])
+                    ("ForUniverse" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [58613 58616])
+                        ("universe" variable nil (reparse-symbol function_parameters) [58618 58626]))                      ) (reparse-symbol indented_block_body) [58596 58851])
+                    ("__init__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [58871 58875])
+                        ("args" variable nil (reparse-symbol function_parameters) [58877 58882])
+                        ("kwargs" variable nil (reparse-symbol function_parameters) [58884 58892]))                      ) (reparse-symbol indented_block_body) [58857 59096])
+                    ("refreshAuthToken" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [59123 59127]))                      ) (reparse-symbol indented_block_body) [59101 59462])
+                    ("prepare" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [59480 59484]))                      ) (reparse-symbol indented_block_body) [59467 59562])
+                    ("ticketsForEmail" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [59593 59597])
+                        ("email" variable nil (reparse-symbol function_parameters) [59599 59604]))                      ) (reparse-symbol indented_block_body) [59572 60746]))                  
+                :type "class")
+                nil [58252 60746])
+            ("UniverseMailProfile" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("universe" variable nil (reparse-symbol indented_block_body) [60794 60928])
+                    ("email" variable nil (reparse-symbol indented_block_body) [60933 61062])
+                    ("imapHost" variable nil (reparse-symbol indented_block_body) [61067 61122])
+                    ("smtpHost" variable nil (reparse-symbol indented_block_body) [61127 61182])
+                    ("smtpPort" variable nil (reparse-symbol indented_block_body) [61187 61230])
+                    ("username" variable nil (reparse-symbol indented_block_body) [61235 61290])
+                    ("password" variable nil (reparse-symbol indented_block_body) [61295 61350])
+                    ("customerServiceEmail" variable nil (reparse-symbol indented_block_body) [61355 61507])
+                    ("property" code nil (reparse-symbol indented_block_body) [61514 61522])
+                    ("isEnabled" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [61542 61546]))                      ) (reparse-symbol indented_block_body) [61527 61660])
+                    ("emailWithExtension" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [61689 61693])
+                        ("extension" variable nil (reparse-symbol function_parameters) [61695 61704]))                      ) (reparse-symbol indented_block_body) [61665 61901])
+                    ("sendSimple" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [61922 61926])
+                        ("toEmail" variable nil (reparse-symbol function_parameters) [61928 61935])
+                        ("subject" variable nil (reparse-symbol function_parameters) [61937 61944])
+                        ("body" variable nil (reparse-symbol function_parameters) [61946 61950])
+                        ("reallySend" variable nil (reparse-symbol function_parameters) [61952 61962])
+                        ("sendImmediately" variable nil (reparse-symbol function_parameters) [61969 61984]))                      ) (reparse-symbol indented_block_body) [61906 63572])
+                    ("sendTwoPart" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [63594 63598])
+                        ("toEmail" variable nil (reparse-symbol function_parameters) [63600 63607])
+                        ("subject" variable nil (reparse-symbol function_parameters) [63609 63616])
+                        ("params" variable nil (reparse-symbol function_parameters) [63618 63624])
+                        ("templateName" variable nil (reparse-symbol function_parameters) [63626 63638])
+                        ("templateText" variable nil (reparse-symbol function_parameters) [63645 63657])
+                        ("templateHTML" variable nil (reparse-symbol function_parameters) [63664 63676])
+                        ("replyTo" variable nil (reparse-symbol function_parameters) [63683 63690])
+                        ("reallySend" variable nil (reparse-symbol function_parameters) [63697 63707])
+                        ("sendImmediately" variable nil (reparse-symbol function_parameters) [63714 63729]))                      ) (reparse-symbol indented_block_body) [63577 66053])
+                    ("property" code nil (reparse-symbol indented_block_body) [66072 66080])
+                    ("mailRetriever" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [66104 66108]))                      ) (reparse-symbol indented_block_body) [66085 66386])
+                    ("property" code nil (reparse-symbol indented_block_body) [66392 66400])
+                    ("incomingMailDirectory" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [66432 66436]))                      ) (reparse-symbol indented_block_body) [66405 66523])
+                    ("sendImmediately" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [66549 66553])
+                        ("toEmail" variable nil (reparse-symbol function_parameters) [66555 66562])
+                        ("message" variable nil (reparse-symbol function_parameters) [66564 66571]))                      ) (reparse-symbol indented_block_body) [66528 67161])
+                    ("setup" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [67178 67182]))                      ) (reparse-symbol indented_block_body) [67167 67673])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [67925 67936])
+                    ("Create" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [67953 67956])
+                        ("sender" variable nil (reparse-symbol function_parameters) [67958 67964])
+                        ("instance" variable nil (reparse-symbol function_parameters) [67971 67979])
+                        ("created" variable nil (reparse-symbol function_parameters) [67986 67993])
+                        ("kwargs" variable nil (reparse-symbol function_parameters) [68000 68008]))                      ) (reparse-symbol indented_block_body) [67941 69074]))                  
+                :type "class")
+                nil [60748 69074])
+            ("signals" code nil nil [69075 69134])
+            ("signals" code nil nil [69135 69206])
+            ("MessageTemplate" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("universe" variable nil (reparse-symbol indented_block_body) [69251 69290])
+                    ("name" variable nil (reparse-symbol indented_block_body) [69295 69335])
+                    ("data" variable nil (reparse-symbol indented_block_body) [69340 69366])
+                    ("Meta" type
+                       (:members 
+                          ( ("unique_together" variable nil (reparse-symbol indented_block_body) [69392 69433]))                          
+                        :type "class")
+                        (reparse-symbol indented_block_body) [69372 69434]))                  
+                :type "class")
+                nil [69209 69434])
+            ("WildcardDomain" type
+               (:superclasses ("object")
+                :members 
+                  ( ("__init__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [69484 69488])
+                        ("suffix" variable nil (reparse-symbol function_parameters) [69490 69496])
+                        ("secureDomain" variable nil (reparse-symbol function_parameters) [69498 69510]))                      ) (reparse-symbol indented_block_body) [69470 69583])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [69601 69605]))                      ) (reparse-symbol indented_block_body) [69588 69675])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [69681 69692])
+                    ("matchingOne" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [69714 69717])
+                        ("domain" variable nil (reparse-symbol function_parameters) [69719 69725]))                      ) (reparse-symbol indented_block_body) [69697 70423])
+                    ("classmethod" code nil (reparse-symbol indented_block_body) [70429 70440])
+                    ("matching" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [70459 70462])
+                        ("domains" variable nil (reparse-symbol function_parameters) [70464 70472]))                      ) (reparse-symbol indented_block_body) [70445 71596]))                  
+                :type "class")
+                nil [69435 71596])
+            ("WILDCARD_DOMAINS" variable nil nil [71734 72329])
+            ("EmailList" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( (""""An email list. Note that the list contains email addresses, not users, because the primary purpose is communicating with people who may not have signed up yet."""" code nil (reparse-symbol indented_block_body) [72367 72532])
+                    ("universe" variable nil (reparse-symbol indented_block_body) [72538 72577])
+                    ("name" variable nil (reparse-symbol indented_block_body) [72582 72622])
+                    ("description" variable nil (reparse-symbol indented_block_body) [72627 72721])
+                    ("membershipOpen" variable nil (reparse-symbol indented_block_body) [72726 72831])
+                    ("code" variable nil (reparse-symbol indented_block_body) [72836 72955])
+                    ("Meta" type
+                       (:members 
+                          ( ("unique_together" variable nil (reparse-symbol indented_block_body) [73152 73193]))                          
+                        :type "class")
+                        (reparse-symbol indented_block_body) [73132 73194])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [73212 73216]))                      ) (reparse-symbol indented_block_body) [73199 73274])
+                    ("userCanAdmin" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [73297 73301])
+                        ("user" variable nil (reparse-symbol function_parameters) [73303 73307]))                      ) (reparse-symbol indented_block_body) [73279 73359]))                  
+                :type "class")
+                nil [72331 73359])
+            ("EmailInList" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( ("emaillist" variable nil (reparse-symbol indented_block_body) [73399 73440])
+                    ("address" variable nil (reparse-symbol indented_block_body) [73445 73488])
+                    ("name" variable nil (reparse-symbol indented_block_body) [73493 73533])
+                    ("Meta" type
+                       (:members 
+                          ( ("unique_together" variable nil (reparse-symbol indented_block_body) [73559 73604]))                          
+                        :type "class")
+                        (reparse-symbol indented_block_body) [73539 73605])
+                    ("__str__" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [73627 73631]))                      ) (reparse-symbol indented_block_body) [73614 73744]))                  
+                :type "class")
+                nil [73361 73744])
+            ("GlobalPersistentMessage" type
+               (:superclasses ("models.Model")
+                :members 
+                  ( (""""A message to be shown on every page across all Universes, intended to be used for notification of imminent maintenance windows.
+    A maximum of one of these should be active at any given time. If there are more, behavior is undefined."""" code nil (reparse-symbol indented_block_body) [73795 74036])
+                    ("text" variable nil (reparse-symbol indented_block_body) [74042 74115])
+                    ("start" variable nil (reparse-symbol indented_block_body) [74120 74213])
+                    ("end" variable nil (reparse-symbol indented_block_body) [74218 74313])
+                    ("timed_class_property" code nil (reparse-symbol indented_block_body) [74320 74373])
+                    ("Current" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [74391 74394]))                      ) (reparse-symbol indented_block_body) [74378 74592])
+                    ("timed_class_property" code nil (reparse-symbol indented_block_body) [74598 74651])
+                    ("GetText" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [74669 74672]))                      ) (reparse-symbol indented_block_body) [74656 74753])
+                    ("property" code nil (reparse-symbol indented_block_body) [74760 74768])
+                    ("jsonDict" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [74787 74791]))                      ) (reparse-symbol indented_block_body) [74773 74931]))                  
+                :type "class")
+                nil [73745 74931]))          
+    :file "models.py"
+    :pointmax 74931
+    :fsize 75324
+    :lastmodtime '(20368 19245)
+    :unmatched-syntax '((punctuation 74759 . 74760) (punctuation 74597 . 74598) (punctuation 74319 . 74320) (punctuation 70428 . 70429) (punctuation 69680 . 69681) (punctuation 67924 . 67925) (punctuation 66391 . 66392) (punctuation 66071 . 66072) (punctuation 61513 . 61514) (INDENT_BLOCK 59971 . 60096) (NEWLINE 59970 . 59971) (COLON 59969 . 59970) (TRY 59878 . 59881) (AS 59959 . 59961) (INDENT_BLOCK 59334 . 59382) (NEWLINE 59333 . 59334) (COLON 59332 . 59333) (TRY 59220 . 59223) (AS 59322 . 59324) (punctuation 58536 . 58537) (punctuation 58519 . 58520) (NAME 58077 . 58086) (IF 58109 . 58111) (ELSE 58126 . 58130) (NAME 58013 . 58022) (IF 58045 . 58047) (ELSE 58062 . 58066) (NAME 57967 . 57971) (IF 57984 . 57986) (ELSE 57997 . 58001) (punctuation 57136 . 57137) (punctuation 56982 . 56983) (punctuation 56838 . 56839) (punctuation 56197 . 56198) (punctuation 55728 . 55729) (punctuation 55046 . 55047) (punctuation 51847 . 51848) (punctuation 51490 . 51491) (punctuation 51288 . 51289) (punctuation 50725 . 50726) (punctuation 50089 . 50090) (punctuation 49801 . 49802) (punctuation 47463 . 47464) (punctuation 47335 . 47336) (punctuation 47045 . 47046) (punctuation 46813 . 46814) (punctuation 46574 . 46575) (punctuation 45535 . 45536) (punctuation 45031 . 45032) (punctuation 44697 . 44698) (punctuation 42361 . 42362) (punctuation 41815 . 41816) (punctuation 41582 . 41583) (punctuation 41068 . 41069) (punctuation 40950 . 40951) (punctuation 40533 . 40534) (punctuation 40308 . 40309) (punctuation 36062 . 36063) (punctuation 35852 . 35853) (punctuation 34833 . 34834) (punctuation 34681 . 34682) (punctuation 34540 . 34541) (punctuation 34339 . 34340) (punctuation 33419 . 33420) (punctuation 29202 . 29203) (punctuation 28614 . 28615) (punctuation 27131 . 27132) (punctuation 26614 . 26615) (punctuation 25687 . 25688) (punctuation 25066 . 25067) (punctuation 24603 . 24604) (punctuation 23949 . 23950) (punctuation 21371 . 21372) (punctuation 21096 . 21097) (punctuation 20868 . 20869) (punctuation 20211 . 20212) (punctuation 19969 . 19970) (punctuation 19762 . 19763) (punctuation 19744 . 19745) (punctuation 19495 . 19496) (punctuation 19266 . 19267) (punctuation 18547 . 18548) (punctuation 18533 . 18534) (punctuation 17779 . 17780) (punctuation 14327 . 14328) (punctuation 12820 . 12821) (punctuation 12289 . 12290) (punctuation 12190 . 12191) (punctuation 11682 . 11683) (punctuation 11287 . 11288) (punctuation 10452 . 10453) (punctuation 10209 . 10210) (punctuation 10195 . 10196) (punctuation 9956 . 9957) (punctuation 9942 . 9943) (punctuation 9820 . 9821) (punctuation 9806 . 9807) (punctuation 9645 . 9646) (punctuation 9631 . 9632) (punctuation 9468 . 9469) (punctuation 9454 . 9455) (punctuation 9295 . 9296) (punctuation 9281 . 9282) (punctuation 9123 . 9124) (punctuation 9109 . 9110) (punctuation 8990 . 8991) (punctuation 8973 . 8974) (punctuation 8773 . 8774) (punctuation 8682 . 8683) (punctuation 8573 . 8574) (punctuation 5450 . 5451) (punctuation 5433 . 5434) (punctuation 4929 . 4930) (punctuation 2727 . 2728) (punctuation 2621 . 2622))
+    )
+   (semanticdb-table "models.py.orig"
+    :major-mode 'python-mode
+    :tags nil
+    :file "models.py.orig"
+    :pointmax 74877
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "models.py.wip_saveAvatar"
+    :major-mode 'python-mode
+    :tags nil
+    :file "models.py.wip_saveAvatar"
+    :pointmax 52237
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "urls.py.orig"
+    :major-mode 'python-mode
+    :tags nil
+    :file "urls.py.orig"
+    :pointmax 23718
+    :fsize 23717
+    :lastmodtime '(20347 24590)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!app!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,18 @@
+;; Object mail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mail/"
+  :tables (list 
+   (semanticdb-table "forgottenPassword.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "forgottenPassword.html"
+    :pointmax 378
+    :fsize 377
+    :lastmodtime '(19817 21360)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!zoe!dev!subutai!hg!subutai-trunk!uauth!templates!uauth!mail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

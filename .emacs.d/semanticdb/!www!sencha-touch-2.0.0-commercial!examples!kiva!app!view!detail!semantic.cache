@@ -1,0 +1,18 @@
+;; Object detail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "detail/"
+  :tables (list 
+   (semanticdb-table "Information.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "Information.js"
+    :pointmax 928
+    :fsize 927
+    :lastmodtime '(20310 15420)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!www!sencha-touch-2.0.0-commercial!examples!kiva!app!view!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )
